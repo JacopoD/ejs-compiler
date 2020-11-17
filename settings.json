@@ -1,0 +1,5 @@
+{
+    "files":["testfile1.ejs"],
+    "dirs":["folder1/"],
+    "output_dir": "folder1/"
+}

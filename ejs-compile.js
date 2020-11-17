@@ -7,7 +7,7 @@
 const fs = require("fs-extra");
 const ejs = require("ejs");
 const glob = require("glob-fs")({ gitignore: true });
-const json_file = require("./files.json");
+const json_file = require("./settings.json");
 
 // console.log(json_file.dirs);
 
@@ -52,6 +52,4 @@ ejs.views_include = function(locals) {
 };
 ${compiled}`;
 
-console.log(output);
-
-// fs.writeFile("public/js/views.js", output);
+fs.writeFile(json_file.output_dir+"views.js", output);
