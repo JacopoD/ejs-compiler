@@ -1,0 +1,29 @@
+{
+  "name": "ejs-compiler",
+  "version": "1.0.0",
+  "description": "ejscompiler",
+  "main": "ejs-compile.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "glob-fs": "^0.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ejsc": "node ejs-compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacopoD/ejs-compiler.git"
+  },
+  "keywords": [
+    "compiler",
+    "ejs"
+  ],
+  "author": "Jacopo Di Ventura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacopoD/ejs-compiler/issues"
+  },
+  "homepage": "https://github.com/JacopoD/ejs-compiler#readme"
+}
