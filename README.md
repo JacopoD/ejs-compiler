@@ -21,5 +21,5 @@
 
   
 
-* now you can run the file however you like and the compiled views will be written to ```public/js/views.js```
+* now you can run ```ejs-compile.js```, the compiled views will be written to ```public/js/views.js```
 
